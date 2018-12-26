@@ -1,0 +1,20 @@
+{
+  "name": "api-rest",
+  "version": "1.0.0",
+  "description": "Aplicación básica para servir API Rest, solo lado del servidor, construida con NodeJS, ExpressJS y MongoDB para gestión de usaurios (o lo que sea) o CRUD.",
+  "main": "app.js",
+  "author": "carlosoliverosm@gmail.com - olimo.co",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon app.js",
+    "start": "node app.js"
+  },
+  "devDependencies": {
+    "morgan": "^1.9.1",
+    "nodemon": "^1.18.9"
+  },
+  "dependencies": {
+    "express": "^4.16.4",
+    "mongoose": "^5.4.0"
+  }
+}
